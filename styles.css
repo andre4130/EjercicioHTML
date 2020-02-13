@@ -1,0 +1,243 @@
+/*this is the css stylesheet*/
+html, body {
+	background-image: linear-gradient(black, white);
+	margin: 0;
+}
+
+.PerformingToday {
+width: 600px;
+border: none;
+padding: 5px;
+margin: 10px;
+background-image: linear-gradient(Grey, white);
+/*background-color: rgb(90,90,90);*/
+}
+
+.div2 {
+  float: right;
+  width: 350px;
+  heigth: 700px;
+border: 1px ;
+padding: 5px;
+margin: 10px;
+background-image: linear-gradient(Grey, white);
+}
+
+.divBooked {
+  width: 100%;
+  height: 200px;
+  border: none;
+  padding: 5px;
+  margin: 1px;
+  align: justify;
+  background-image: linear-gradient(rgb(0, 150, 255), black);
+}
+
+.VenueList {
+  width: 500px;
+border: 1px solid black;
+padding: 5px;
+margin: 10px;
+background-color: grey
+}
+
+.flex-container {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+.flex-container2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.band {
+  width: 32%;
+  height: 200px;
+  border: none;
+  padding: 5px;
+  margin: 1px;
+  background-image: linear-gradient(rgb(0, 150, 255), black);
+}
+.venue {
+  width: 32%;
+  border: none;
+  padding: 5px;
+  margin: 1px;
+  background-image: linear-gradient(rgb(0, 150, 255), black);
+}
+.user  {
+  width: 32%;
+  border: none;
+  padding: 5px;
+  margin: 1px;
+  background-image: linear-gradient(rgb(0, 150, 255), black);
+
+}
+
+.header{
+  width: 100%;
+  height: 200px;
+  background-image: url("images/header.PNG");
+  background-size: cover;
+  background-position: top;
+}
+
+.dropdown {
+  font-weight: bold;
+  position: relative top;
+  display: inline-block;
+  color: white;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(10,10,10);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 3;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: rgb(1,1,1);
+}
+body {
+	font: 100% Verdana, Geneva, sans-serif;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 2.5% 2.5% 0;
+	background: white;
+	line-height: 1.8;
+}
+h1 {
+	font-size: 3em;
+	margin-bottom: .4em;
+	color: rgb(200,200,200);
+}
+h2 {
+	font: 2.5em Arial, Helvetica, sans-serif;
+	margin-bottom: .2em;
+  color: rgb(210,210,210)
+}
+h3 {
+	font-size: 1.2em;
+}
+p {
+	margin-bottom: 1em;
+}
+a {
+	color: rgb(255, 255, 255);
+}
+a:hover {
+	color: rgb(0,204,255);
+}
+pre {
+	font-size: 1.4em;
+	color: white;
+	padding: .5em 1em;
+	border-left: 1em solid #A68048;
+	background: #666;
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+	word-wrap: break-word;
+	width: 80%;
+}
+pre.wrong {
+	border-left-color: red;
+}
+pre.correct {
+	border-left-color: green;
+}
+dt {
+	font-style: italic;
+	font-size:1.2em;
+}
+dd {
+	margin-bottom: 1.4em;
+}
+table {
+	margin-top: 1em;
+}
+caption {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 1em;
+	text-align: left;
+}
+td, th {
+	padding: 10px;
+}
+.center {
+	text-align: center;
+}
+header h2 {
+	padding-bottom: .2em;
+	border-bottom: 1px solid gray;
+}
+aside {
+	padding: 1em;
+	background:rgb(83, 104, 138);
+	color: white;
+	margin-bottom: 1em;
+}
+aside h4 {
+	color: white;
+}
+
+ul {
+  position: fixed; /*fixes the menu to the top of the list*/
+  top: 0%;
+  width: 100%;
+  list-style-type: none; /*this command removes the bullet points of the unordered list*/
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #000;
+  }
+
+li {
+  display: inline;
+  width: 60px;
+}
+
+li a:hover {
+  background-color: #123;
+}
+
+footer {
+  background-color: grey;
+	border-top: 1px solid gray;
+	text-align: center;
+	font-size: .8em;
+	line-height: 4em;
+	margin-top: 1em;
+}
+blockquote {
+	font-style: italic;
+}
+.flowRight {
+	float: right;
+	margin-left: 10px;
+}
+.flowLeft {
+	float: left;
+	margin-right: 10px;
+}
